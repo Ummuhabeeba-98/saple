@@ -1,0 +1,30 @@
+body{
+    background-color: aquamarine ;
+}
+h1{
+    color: brown;
+    text-align: center;
+    background-color:hwb(90 0% 0%);
+    font-size: 50px;
+    text-decoration:underline;
+}
+p{
+    color: crimson;
+    font-style:italic ;
+
+}
+h3{
+    text-align: center;
+}
+ol{
+    text-decoration: underline;
+}
+h4{
+    color: chocolate;
+    font-style: oblique;
+    font-size: x-large;
+}
+ol{
+    margin-bottom: 50px;
+    margin-top: 60px;
+}

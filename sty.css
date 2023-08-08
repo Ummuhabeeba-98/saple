@@ -1,0 +1,41 @@
+:root{
+    font-size: 14px;
+}
+div h1{
+    color: #92fe5a;
+    font-size: 50px;
+    font-weight: 10px;
+    width: 50em;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+ } 
+  .clas{
+    background-color: coral;
+} 
+p{
+    height:30vh;
+    margin-top: 20px;
+    font-size: 2rem;
+    text-align: justify;
+}
+  @media(min-width: 400px)
+{
+    body{
+        background-color: cornflowerblue;
+    }
+}
+@media screen and(max-height:400px) 
+{
+    body
+    {
+        background-color: blueviolet;
+    }
+}      
+@media screen and (prefers-color-scheme:light)
+{
+    body{
+        color: crimson;
+        background-color: darkolivegreen;
+    }
+}  
+     
+ 

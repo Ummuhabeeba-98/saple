@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>feedback form</title>
+    <link rel="short cut icon" href="C:/Users/Administrator/Pictures/feedback.png"></head>
+<body>
+    <h1>FEEDBACK FORM</h1>
+    <form action="#">
+        <fieldset>
+            <legend >user information</legend>
+            <div>
+                <label for="user name">username</label>
+                <input type="text" id="username">
+            </div>
+            <br>
+            <div>
+                <label for="user email">useremail</label>
+                <input type="email" id="useremail">
+            </div>
+            <br>
+            <div>
+                <label for="age">age</label>
+                <input type="number" id="age" min="15" max="40">
+                </div>
+                <br>
+                <div>
+                    <label for="dob">date of birth</label>
+                    <input type="date" id="dob">
+                </div>
+                <br>
+                <div>
+                    gender <input name="gender" type="radio" id="male">
+                   <label for="male">male</label> 
+                   <input name="gender" type="radio" id="female">
+                   <label for="female">female</label>
+                </div>
+                <br>
+                <div>
+                    <label for="address">address</label>
+                    <textarea id="address"rows="5" cols="20"></textarea>
+                </div>
+                <br>
+                <div>
+                    profile pic
+                    <input type="file">
+                </div>
+                <br>
+                <div>
+                    <label for="">password</label>
+                    <input type="password"></input>
+                </div>
+      </fieldset>
+      <fieldset>
+        <legend>preference</legend>
+        <div>
+            favorite food
+            <input type="checkbox" name="" id="apple">
+            <label for="apple">apple</label>
+            <input type="checkbox"  name="" id="banana">
+            <label for="banana">banana</label>
+            <input type="checkbox" name="" id="orange">
+            <label for="orange">orange</label>
+        </div>
+        <br>
+        <div>
+            <label for="pizza">pizza size</label>
+            <select name="" id="pizza" multiple>
+             <option value="small">small</option>
+             <option value="medium">medium</option>
+             <option value="large">large</option>
+             <option value="extra large">extra large</option>   
+            </select>
+        </div>
+        <br>
+        <div>
+            choose  an icecream flavour
+            <input list="icecream">
+            <datalist id="icecream">
+                <option value="chocolate">chocolate</option>
+                <option value="coconut">coconut</option>
+                <option value="blue berry">blue berry</option>
+                <option value="straw berry">straw berry</option>
+                <option value="caramel">caramel</option>
+                <option value="vanilla">vanilla</option>
+             </datalist>
+        </div>
+      </fieldset>
+      <input type="submit">
+      <input type="reset">
+
+    </form>
+</body>
+</html>
