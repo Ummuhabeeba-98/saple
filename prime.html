@@ -8,6 +8,7 @@
 <body>
      <script>
         let count=0
+        let sum=0;
 let i,j 
 for(j=2;j<=100;j++)
 {
@@ -15,20 +16,17 @@ for( i=1;i<=j;i++)
 {
   if(j%i==0)
   count++
-  
 }
-
 if(count==2)
-
 console.log(j)
 count=0
-
-
-  
 }
-
-
+if(count == 0 && j != 1 )            
+{  
+sum = sum +j;  
+}   
+j++;  
+ console.log("The Sum of Prime Numbers from 1 to 100 is: " + sum);  
 </script>
-    
 </body>
 </html>

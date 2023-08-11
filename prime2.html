@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+ let  number = 1, count, sum = 0;  
+while(number <= 100)  
+{  
+count = 0;  
+let  i = 2;  
+while(i <= number/2 )  
+{  
+if(number % i == 0)  
+{  
+count++;  
+break;  
+}  
+i++;  
+}   
+if(count == 0 && number != 1 )            
+{        
+sum = sum + number;  
+}   
+number++;  
+}    
+console.log("The Sum of Prime Numbers from 1 to 100 is: " + sum);  
+  </script>
+</body>
+</html>
